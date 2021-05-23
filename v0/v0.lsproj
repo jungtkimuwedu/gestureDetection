@@ -3,7 +3,7 @@
     "document_id": "I2f_u9gPd9ep1uVKWo-s",
     "original_document_id": "CM_qFZkpIbwMUmcDHX4O",
     "version": "27",
-    "lastChanged": "1621791290806",
+    "lastChanged": "1621791522326",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -1765,7 +1765,7 @@
                     },
                     {
                         "k": "380",
-                        "v": "aacb499f9ccca2863e23e647f657a1d3"
+                        "v": "baee26cd95f0a0ff6f554d865aedaa72"
                     },
                     {
                         "k": "381",
@@ -2017,7 +2017,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-05-22T15:31:57",
                         "name": "Public",
-                        "hash": "efcff65d476b8d45f27f0094302f05aa",
+                        "hash": "36a581af2e321fed695093b7b47feb43",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -2296,9 +2296,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-23T10:30:31",
+                                "lastModified": "2021-05-23T10:38:40",
                                 "name": "Scripts",
-                                "hash": "100c993f742b387614fc6caccf45270f",
+                                "hash": "7502bc9e3eb913d212d1a8e6b175062a",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2316,9 +2316,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-23T10:30:31",
+                                        "lastModified": "2021-05-23T10:38:40",
                                         "name": "HandGestureController.js",
-                                        "hash": "aacb499f9ccca2863e23e647f657a1d3",
+                                        "hash": "baee26cd95f0a0ff6f554d865aedaa72",
                                         "children": ""
                                     },
                                     {
@@ -3531,8 +3531,14 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1621126831485559:307535"
+                "resources": [
+                    {
+                        "uid": "1583361612240808:7936981",
+                        "path_list": [
+                            "Scripts",
+                            "ReparentHelper"
+                        ]
+                    }
                 ]
             }
         },

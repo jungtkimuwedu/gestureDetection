@@ -24,7 +24,6 @@ var customMap = {
 };
 
 function generateTriggerResponse(evt) {
-    print("helllooooo")
     return function() {
         if (script.debug) {
             print("Gesture detected: " + evt);
