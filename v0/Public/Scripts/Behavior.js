@@ -694,6 +694,9 @@ function doResponse() {
 }
 
 function onTrigger() {
+    global.behaviorSystem.addCustomTriggerResponse("thumb", function() {
+    print("thumb gesture detected");
+});
     var curTime = getTime();
     if (script.triggerLimitType == "Once") {
         if (lastTriggerTime) {

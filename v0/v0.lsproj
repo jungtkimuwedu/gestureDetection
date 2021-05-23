@@ -3,7 +3,7 @@
     "document_id": "I2f_u9gPd9ep1uVKWo-s",
     "original_document_id": "CM_qFZkpIbwMUmcDHX4O",
     "version": "27",
-    "lastChanged": "1621722718450",
+    "lastChanged": "1621791290806",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -1741,7 +1741,7 @@
                     },
                     {
                         "k": "374",
-                        "v": "91c13f7497081d3638dd81f8c7b017fd"
+                        "v": "bb1fe3a120adf94dddfaa2290efb6183"
                     },
                     {
                         "k": "375",
@@ -1765,7 +1765,7 @@
                     },
                     {
                         "k": "380",
-                        "v": "85a79b6344bede27b42ebea25d5ffedf"
+                        "v": "aacb499f9ccca2863e23e647f657a1d3"
                     },
                     {
                         "k": "381",
@@ -2015,19 +2015,19 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-05-21T13:12:50",
+                        "lastModified": "2021-05-22T15:31:57",
                         "name": "Public",
-                        "hash": "28a562613247044b1d6f7fd9ab05c0f4",
+                        "hash": "efcff65d476b8d45f27f0094302f05aa",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-21T13:12:50",
+                                "lastModified": "2021-05-22T15:31:57",
                                 "name": "Textures",
                                 "hash": "95ab8ba9b581103322fbbe8270cbfb6d",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-05-21T13:12:50",
+                                        "lastModified": "2021-05-22T15:31:57",
                                         "name": "echopark_1",
                                         "hash": "5a1f00279495bbc7935c9e6c2a9cfada",
                                         "children": [
@@ -2072,13 +2072,13 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-15T17:11:06",
+                                "lastModified": "2021-05-22T15:31:57",
                                 "name": "Tween",
                                 "hash": "3880efe8a9cdd13d1c8915b73befcc93",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-05-15T17:11:06",
+                                        "lastModified": "2021-05-22T15:31:57",
                                         "name": "TweenTypes",
                                         "hash": "f50ce030eaf84df317c78146294d5d95",
                                         "children": [
@@ -2091,7 +2091,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-05-15T17:11:06",
+                                                "lastModified": "2021-05-22T15:31:57",
                                                 "name": "Legacy",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -2152,7 +2152,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-21T13:13:01",
+                                "lastModified": "2021-05-22T15:31:57",
                                 "name": "Materials",
                                 "hash": "e90fe72d7c5157ae81cf613702c1b4a1",
                                 "children": [
@@ -2174,7 +2174,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-15T17:11:06",
+                                "lastModified": "2021-05-22T15:31:57",
                                 "name": "Prefabs",
                                 "hash": "5d7fd802cfa0432d67fe9f23bf02e31f",
                                 "children": [
@@ -2187,7 +2187,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-05-15T17:11:06",
+                                        "lastModified": "2021-05-22T15:31:57",
                                         "name": "Bottom UI Prefabs",
                                         "hash": "9e06bea2c536ee3c1798005c744194d9",
                                         "children": [
@@ -2274,7 +2274,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-21T13:12:49",
+                                "lastModified": "2021-05-22T15:31:57",
                                 "name": "Meshes",
                                 "hash": "4845a7712aa525ec885f0e25e27cdcf6",
                                 "children": [
@@ -2296,9 +2296,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-21T13:40:25",
+                                "lastModified": "2021-05-23T10:30:31",
                                 "name": "Scripts",
-                                "hash": "6be573868877d044e6a28d3b965bcc17",
+                                "hash": "100c993f742b387614fc6caccf45270f",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2316,16 +2316,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-21T13:40:23",
+                                        "lastModified": "2021-05-23T10:30:31",
                                         "name": "HandGestureController.js",
-                                        "hash": "85a79b6344bede27b42ebea25d5ffedf",
+                                        "hash": "aacb499f9ccca2863e23e647f657a1d3",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-06T06:11:58",
+                                        "lastModified": "2021-05-22T17:48:16",
                                         "name": "Behavior.js",
-                                        "hash": "91c13f7497081d3638dd81f8c7b017fd",
+                                        "hash": "bb1fe3a120adf94dddfaa2290efb6183",
                                         "children": ""
                                     },
                                     {
@@ -2346,7 +2346,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-21T13:12:50",
+                                "lastModified": "2021-05-22T15:31:57",
                                 "name": "smile qr code",
                                 "hash": "4c981503278f2cccb7343c41c623b7cc",
                                 "children": [
@@ -2368,13 +2368,13 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-15T17:11:06",
+                                "lastModified": "2021-05-22T15:31:57",
                                 "name": "Hand Gesture Resources",
                                 "hash": "e1d7c9fd95566b871ea9394014a3d636",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-05-15T17:11:06",
+                                        "lastModified": "2021-05-22T15:31:57",
                                         "name": "Textures",
                                         "hash": "57d9c6ab2987a2376e76e30ebd438608",
                                         "children": [
@@ -2387,7 +2387,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-05-15T17:11:06",
+                                                "lastModified": "2021-05-22T15:31:57",
                                                 "name": "Close",
                                                 "hash": "00827acd1e14c38b2cd68800d863d699",
                                                 "children": [
@@ -2437,7 +2437,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-05-15T17:11:06",
+                                                "lastModified": "2021-05-22T15:31:57",
                                                 "name": "Index-Finger",
                                                 "hash": "86cefd6634ce226047ac748f248366ab",
                                                 "children": [
@@ -2459,7 +2459,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-05-15T17:11:06",
+                                                "lastModified": "2021-05-22T15:31:57",
                                                 "name": "Horn",
                                                 "hash": "1c944a7ccbca0b5c0e041bb8e5fec615",
                                                 "children": [
@@ -2516,7 +2516,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-05-15T17:11:06",
+                                                "lastModified": "2021-05-22T15:31:57",
                                                 "name": "Victory",
                                                 "hash": "4bb48afcb2995cf27705b722d9a695a8",
                                                 "children": [
@@ -2538,7 +2538,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-05-15T17:11:06",
+                                                "lastModified": "2021-05-22T15:31:57",
                                                 "name": "Open",
                                                 "hash": "cb52ed5eec752f8088d3cee6cee029c3",
                                                 "children": [
@@ -2576,7 +2576,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-05-15T17:11:06",
+                                        "lastModified": "2021-05-22T15:31:57",
                                         "name": "Sound Effects",
                                         "hash": "3cb758c8ed557645bdf3af9c6326355d",
                                         "children": [
@@ -3532,7 +3532,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1621121188221201:1059681"
+                    "1621126831485559:307535"
                 ]
             }
         },
