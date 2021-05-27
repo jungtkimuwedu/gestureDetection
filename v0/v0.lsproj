@@ -3,7 +3,7 @@
     "document_id": "I2f_u9gPd9ep1uVKWo-s",
     "original_document_id": "CM_qFZkpIbwMUmcDHX4O",
     "version": "27",
-    "lastChanged": "1621791522326",
+    "lastChanged": "1622084853818",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -153,6 +153,10 @@
                         "MaterialDuplicator"
                     ],
                     [
+                        "Scripts",
+                        "NodScript"
+                    ],
+                    [
                         "Textures",
                         "echopark",
                         "Diff"
@@ -279,7 +283,8 @@
                     "1583187336214279:346748",
                     "1583187358827478:380344",
                     "1583264782642553:4188513",
-                    "1596145132922756:1392436"
+                    "1596145132922756:1392436",
+                    "1622084519858239:152479"
                 ]
             ]
         },
@@ -692,6 +697,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "100",
+                    "uid": "1622084592087839:188538",
+                    "name": "Files\/File191.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -911,7 +924,11 @@
                 "24": "1621121188221201:1059681",
                 "25": "1621627970743701:534816",
                 "26": "1621627973720536:535284",
-                "27": "1621629168613894:897697"
+                "27": "1621629168613894:897697",
+                "28": "1622084519858058:152478",
+                "29": "1622084519858239:152479",
+                "30": "1622084519909191:152504",
+                "31": "1622084765320205:291122"
             }
         },
         "LayerComponent": {
@@ -1373,6 +1390,10 @@
                 {
                     "k": "190",
                     "v": "Files\/File190"
+                },
+                {
+                    "k": "191",
+                    "v": "Files\/File191.js"
                 }
             ]
         },
@@ -1624,6 +1645,10 @@
                     {
                         "k": "7753",
                         "v": "smile qr code"
+                    },
+                    {
+                        "k": "7754",
+                        "v": "Scripts\/NodScript.js"
                     }
                 ],
                 "hashes": [
@@ -2010,6 +2035,10 @@
                     {
                         "k": "7753",
                         "v": "16dd09a0b7cf95caaf00a742c371a6ee"
+                    },
+                    {
+                        "k": "7754",
+                        "v": "13b1cd27aea0078bb219843f657c008e"
                     }
                 ],
                 "publicState": {
@@ -2017,7 +2046,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-05-22T15:31:57",
                         "name": "Public",
-                        "hash": "36a581af2e321fed695093b7b47feb43",
+                        "hash": "a14911306a560cc76dd9c7a37fb1af1e",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -2296,9 +2325,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-23T10:38:40",
+                                "lastModified": "2021-05-26T20:04:35",
                                 "name": "Scripts",
-                                "hash": "7502bc9e3eb913d212d1a8e6b175062a",
+                                "hash": "6cf8112cccf0d165656d6ba1090b7af8",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2326,6 +2355,13 @@
                                         "lastModified": "2021-05-22T17:48:16",
                                         "name": "Behavior.js",
                                         "hash": "bb1fe3a120adf94dddfaa2290efb6183",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-26T20:04:35",
+                                        "name": "NodScript.js",
+                                        "hash": "13b1cd27aea0078bb219843f657c008e",
                                         "children": ""
                                     },
                                     {
@@ -2901,6 +2937,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "7747",
                                 "source": "\/private\/var\/folders\/9v\/1y83t0ns3gz1dtd5m616sn_r0000gn\/T\/Lens Studio-EDOTZk\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "NodScript",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "100",
+                                "dependency": "0",
+                                "uid": "1622084592087839:188538",
+                                "fileId": "191",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7754",
+                                "source": "",
                                 "additional": ""
                             }
                         ]
@@ -3531,14 +3580,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1583361612240808:7936981",
-                        "path_list": [
-                            "Scripts",
-                            "ReparentHelper"
-                        ]
-                    }
+                "objects": [
+                    "1622084765320205:291122"
                 ]
             }
         },
