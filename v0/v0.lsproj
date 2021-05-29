@@ -3,7 +3,7 @@
     "document_id": "I2f_u9gPd9ep1uVKWo-s",
     "original_document_id": "CM_qFZkpIbwMUmcDHX4O",
     "version": "27",
-    "lastChanged": "1622084853818",
+    "lastChanged": "1622314423275",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -850,20 +850,6 @@
                         },
                         {
                             "k": "1621721161669083:195732",
-                            "v": {
-                                "isBasicMode": "false",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "true",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1621721202627964:274064",
                             "v": {
                                 "isBasicMode": "false",
                                 "basicModeSetup": {
@@ -2038,7 +2024,7 @@
                     },
                     {
                         "k": "7754",
-                        "v": "13b1cd27aea0078bb219843f657c008e"
+                        "v": "7642ed50a8da60576df5c0426443f246"
                     }
                 ],
                 "publicState": {
@@ -2046,7 +2032,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-05-22T15:31:57",
                         "name": "Public",
-                        "hash": "a14911306a560cc76dd9c7a37fb1af1e",
+                        "hash": "c740f930d73bd43298e39e8321bda426",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -2325,9 +2311,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-26T20:04:35",
+                                "lastModified": "2021-05-29T11:48:10",
                                 "name": "Scripts",
-                                "hash": "6cf8112cccf0d165656d6ba1090b7af8",
+                                "hash": "3af739523840fc18fc2e71de350e24c0",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2359,9 +2345,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-26T20:04:35",
+                                        "lastModified": "2021-05-29T11:45:16",
                                         "name": "NodScript.js",
-                                        "hash": "13b1cd27aea0078bb219843f657c008e",
+                                        "hash": "7642ed50a8da60576df5c0426443f246",
                                         "children": ""
                                     },
                                     {
@@ -3581,7 +3567,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1622084765320205:291122"
+                    "1621121188221201:1059681"
                 ]
             }
         },
