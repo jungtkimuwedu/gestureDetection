@@ -3,7 +3,7 @@
     "document_id": "I2f_u9gPd9ep1uVKWo-s",
     "original_document_id": "CM_qFZkpIbwMUmcDHX4O",
     "version": "27",
-    "lastChanged": "1622314423275",
+    "lastChanged": "1622336434298",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -155,6 +155,10 @@
                     [
                         "Scripts",
                         "NodScript"
+                    ],
+                    [
+                        "Scripts",
+                        "headShakeScript"
                     ],
                     [
                         "Textures",
@@ -705,6 +709,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "101",
+                    "uid": "1622336228598544:602519",
+                    "name": "Files\/File192.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -875,6 +887,34 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1622336196502034:513829",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "true",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1622336270315399:635892",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "true",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -912,9 +952,9 @@
                 "26": "1621627973720536:535284",
                 "27": "1621629168613894:897697",
                 "28": "1622084519858058:152478",
-                "29": "1622084519858239:152479",
-                "30": "1622084519909191:152504",
-                "31": "1622084765320205:291122"
+                "29": "1622084765320205:291122",
+                "30": "1622336013577793:396824",
+                "31": "1622336013604268:396848"
             }
         },
         "LayerComponent": {
@@ -1380,6 +1420,10 @@
                 {
                     "k": "191",
                     "v": "Files\/File191.js"
+                },
+                {
+                    "k": "192",
+                    "v": "Files\/File192.js"
                 }
             ]
         },
@@ -1635,6 +1679,10 @@
                     {
                         "k": "7754",
                         "v": "Scripts\/NodScript.js"
+                    },
+                    {
+                        "k": "7755",
+                        "v": "Scripts\/headShakeScript.js"
                     }
                 ],
                 "hashes": [
@@ -2024,7 +2072,11 @@
                     },
                     {
                         "k": "7754",
-                        "v": "7642ed50a8da60576df5c0426443f246"
+                        "v": "7b3fc39117866ad3a86cda1c9cee1dc1"
+                    },
+                    {
+                        "k": "7755",
+                        "v": "15b1d85cbdf10bddde58deb561155d6d"
                     }
                 ],
                 "publicState": {
@@ -2032,7 +2084,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-05-22T15:31:57",
                         "name": "Public",
-                        "hash": "c740f930d73bd43298e39e8321bda426",
+                        "hash": "c8ee819a2d42266fa9eafad2d08d7f56",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -2311,9 +2363,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-29T11:48:10",
+                                "lastModified": "2021-05-29T17:58:28",
                                 "name": "Scripts",
-                                "hash": "3af739523840fc18fc2e71de350e24c0",
+                                "hash": "48a4599f444d5fe59b4c7700a5eb10d6",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2345,9 +2397,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-29T11:45:16",
+                                        "lastModified": "2021-05-29T17:58:28",
+                                        "name": "headShakeScript.js",
+                                        "hash": "15b1d85cbdf10bddde58deb561155d6d",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-29T17:58:20",
                                         "name": "NodScript.js",
-                                        "hash": "7642ed50a8da60576df5c0426443f246",
+                                        "hash": "7b3fc39117866ad3a86cda1c9cee1dc1",
                                         "children": ""
                                     },
                                     {
@@ -2935,6 +2994,19 @@
                                 "fileId": "191",
                                 "originalId": "18446744073709551615",
                                 "publicId": "7754",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "headShakeScript",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "101",
+                                "dependency": "0",
+                                "uid": "1622336228598544:602519",
+                                "fileId": "192",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7755",
                                 "source": "",
                                 "additional": ""
                             }
@@ -3566,8 +3638,14 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1621121188221201:1059681"
+                "resources": [
+                    {
+                        "uid": "1583361612240808:7936981",
+                        "path_list": [
+                            "Scripts",
+                            "ReparentHelper"
+                        ]
+                    }
                 ]
             }
         },
