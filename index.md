@@ -1,5 +1,13 @@
 # Place Holder for video embedding
 
+# Usage
+
+You can try out our Snap Lens with Zoom today:
+
+1. Download SnapCamera: [**https://snapcamera.snapchat.com/download/**](https://snapcamera.snapchat.com/download/)
+1. Open SnapCamera and paste the following Lens link in the search bar and select the Lens that is shown in the results: [**Lens link**][lens_link]
+1. Now enter Zoom and change your video settings to use SnapCamera, if you need help doing this then follow [**this guide**][snap_with_zoom]
+
 # Introduction
 
 Video conference meetings are an increasingly pervasive part of modern life, especially with the recent changes brought about by the COVID-19 pandemic. The use of a video feed during these meetings allows participants to notice subtle visual cues in others that aids them in understanding and communication together. Unfortunately for many individuals who rely on audio captions to participate in these meetings, such as people who are deaf and hard-of-hearing, the requirement to be closely following the captions makes it easy to miss this non-verbal cues. Research from studies on caption use on TVs shows that viewers' gaze is on the captions ~80% of the time ([**source**][caption_studies]). When using the video, feed these users are heavily relying on peripheral vision which substantially reduces their ability to see subtle cues.
@@ -36,6 +44,8 @@ We believe that our work demonstrates that the technology exists today to create
 
 In regards to data privacy, our research shows that there is already support for third-party integration of custom captioning into services such as Zoom ([**link**][third_party_captioning]). Certainly the functionality we sought to build could be achieved through this tool if Zoom were to additionally provide access to live video feed data as well. Of course this creates a big concern for users who are privacy concious, as well as for Zoom, who may fear data leaks.
 
+[lens_link]: https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=00c152926eae47e19f9bf5758fe7bfe0&metadata=01
+[snap_with_zoom]: https://support.lensstudio.snapchat.com/hc/en-us/articles/360041102572-How-do-I-use-Snap-Camera-with-Zoom-
 [caption_studies]: https://www.jstor.org/stable/44393238?seq=1
 [lens_studio]: https://lensstudio.snapchat.com/
 [msr]: https://www.microsoft.com/en-us/research/uploads/prod/2019/09/NAVC-CSCW-cam-ready-Submit2.pdf
