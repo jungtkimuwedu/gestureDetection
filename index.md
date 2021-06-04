@@ -57,9 +57,11 @@ Recall and Precision calculations for each gesture can be found in the table bel
 
 Notes:
 
+- TP = True Positive, FP = False Positive, FN = False Negative
+
 - "Hello" gesture is at times misinterpreted as "Please wait"
 
-- "Good job" gesture is at times mmisinterpreted as "Please wait" and "Thumbs up"
+- "Good job" gesture is at times misinterpreted as "Please wait" and "Thumbs up"
 
 # Learnings and future work
 
