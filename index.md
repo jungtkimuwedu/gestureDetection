@@ -44,7 +44,7 @@ While this system does not fully implement our vision for an end-to-end system w
 
 In order to measure metrics for the overall gesture detection model we collected data from the execution of each gesture 60 times.
 
-Precision and Recall calculations for each gesture can be found in the table below:
+Recall and Precision calculations for each gesture can be found in the table below:
 
 | Gesture     | Recall (TP/TP+FN) | Precision (TP/TP+FP) | TP | FP | FN |
 |-------------|:-----------------:|:--------------------:|----|----|----|
