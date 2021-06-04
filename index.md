@@ -59,7 +59,7 @@ Notes:
 
 - TP = True Positive, FP = False Positive, FN = False Negative
 
-- Recall: Percentage of times a specific gesture was recognized when it should have been
+- Recall: Percentage of times a specific gesture was recognized from all the times it should have been
 
 - Precision: Percentege of times the recognition was correct from all the times a specific gesture was recognized
 
