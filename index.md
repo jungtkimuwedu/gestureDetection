@@ -40,6 +40,29 @@ In direct response to first-person data we collected and based on our research l
 
 While this system does not fully implement our vision for an end-to-end system with non-verbal cue captioning augmenting the existing meeting captions, it demonstrates that the performance of modern gesture recognition is fast enough to accomplish this task in a real-time meeting setting and that the technology is available to build such an experience.
 
+# Gestures detection metrics
+
+In order to measure metrics for the overall gesture detection model we collected data from the execution of each gesture 60 times.
+
+Recall and Precision calculations for each gesture can be found in the table below:
+
+| Gesture     | Recall (TP/TP+FN) | Precision (TP/TP+FP) | TP | FP | FN |
+|-------------|:-----------------:|:--------------------:|----|----|----|
+| Nodding     | 67%               | 100%                 | 40 | 0  | 20 |
+| Hello       | 77%               | 100%                 | 46 | 0  | 14 |
+| Thumbs up   | 90%               | 71%                  | 54 | 22 | 6  |
+| Please wait | 97%               | 64%                  | 58 | 32 | 2  |
+| Raised Hand | 100%              | 100%                 | 60 | 0  | 0  |
+| Good Job    | 53%               | 100%                 | 32 | 0  | 28 |
+
+Notes:
+
+- TP = True Positive, FP = False Positive, FN = False Negative
+
+- "Hello" gesture is at times misinterpreted as "Please wait"
+
+- "Good job" gesture is at times misinterpreted as "Please wait" and "Thumbs up"
+
 # Learnings and future work
 
 Through this project we learned much more about the challenges faced by users who are deaf or hard-of-hearing in video meeting environments as well as how to effective go about the design process while taking a disability studies perspective. Because of the lack of direction in our original attempts and subsequent re-focusing, it was made clear to us how important it is to get consistent feedback throughout the design process to ensure that the right features are being developed.
