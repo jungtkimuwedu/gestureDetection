@@ -59,6 +59,10 @@ Notes:
 
 - TP = True Positive, FP = False Positive, FN = False Negative
 
+- Recall: Percentage of times a specific gesture was recognized when it should have been
+
+- Precision: Percentege of times the recognition was correct from all the times a specific gesture was recognized
+
 - "Hello" gesture is at times misinterpreted as "Please wait"
 
 - "Good job" gesture is at times misinterpreted as "Please wait" and "Thumbs up"
