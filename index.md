@@ -32,7 +32,7 @@ The article "I’m deaf, and this is what happens when I get on a Zoom call" ([*
 
 The disability studies perspective was critical in shaping the direction and ultimate goal of our project. While initially our project had a very broad call of improving the video conferencing experience for many types of users and incorporating auditory signaling and emoji overlays, we sought out additional first-person perspectives that informed us that we needed to refocus. By engaging with [**Aashaka Desai**][aashaka], a PhD student and accessibility research, we were able to determine which aspects of our work had the potential to be impactful and which were of limited value. Additionally, by revisiting the literature from MSR discussed earlier, we were able to identify the most important non-verbal cues that users with disabilities were unable to see and wanted to know about.
 
-# Methodology
+# Methodology/Solution
 
 In direct response to first-person data we collected and based on our research literature review, we developed a prototype which demonstrates a step in the direction of the integrated captioning system we described. We designed a Snapchat Lens which reads user video input and detects several common visual gestures, then overlays a textual description of those gestures on the user's video output. Using the [**SnapCamera**][snap_camera] tool, this Lens can be applied during a video meeting to show other meeting participants the resulting "captioned" video output. A high-level overview of this system is show below:
 
@@ -40,9 +40,9 @@ In direct response to first-person data we collected and based on our research l
 
 While this system does not fully implement our vision for an end-to-end system with non-verbal cue captioning augmenting the existing meeting captions, it demonstrates that the performance of modern gesture recognition is fast enough to accomplish this task in a real-time meeting setting and that the technology is available to build such an experience.
 
-# Gestures detection metrics
+# Validation
 
-In order to measure metrics for the overall gesture detection model we collected data from the execution of each gesture 60 times.
+We believe that in order for such as system to be useable in real meetings, it would need to have high enough accuracy that noise and miscommunication would not be substantial issues. In order to validate that our solution has appropriate performance we measured metrics for the overall gesture detection model we collected data from the execution of each gesture 60 times.
 
 Recall and Precision calculations for each gesture can be found in the table below:
 
@@ -62,6 +62,8 @@ Notes:
 - "Hello" gesture is at times misinterpreted as "Please wait"
 
 - "Good job" gesture is at times misinterpreted as "Please wait" and "Thumbs up"
+
+We believe that these results validate that the performance of such a system is appropriate for a real-time meeting setting and non-verbal cue detection is of high enough precision to be applied in these systems.
 
 # Learnings and future work
 
